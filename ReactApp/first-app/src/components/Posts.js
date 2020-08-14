@@ -40,14 +40,15 @@ class Posts extends React.Component {
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                {this.state.posts.map((post) => {
-                                                    return <div key={post.postId} className="post">
-                                                        <td>{post.title}</td>
-                                                        <td>{post.content}</td>
-                                                    </div>
-                                                })}
-                                            </tr>
+                                        {this.state.posts.map(post=>{
+                                            return(
+                                                <tr key={post.postId}>
+                                                    <td>{post.title}</td>
+                                                    <td>{post.content}</td>
+                                                </tr> 
+                                            )
+                                        })
+                                    }
                                         </tbody>
                                     </Table>
                                 </Tab.Pane>

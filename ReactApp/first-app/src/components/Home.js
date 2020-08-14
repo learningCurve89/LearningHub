@@ -6,8 +6,7 @@ class Home extends React.Component {
         return (
             <div>
                 <Posts />
-            </div>
-            
+            </div>            
         )
     }
 }
