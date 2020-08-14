@@ -8744,11 +8744,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andfr\\source\\repos\\CandyShop\\CandyShop\\CandyShop.csproj",
+      "projectUniqueName": "C:\\git\\LearningHub\\CandyShop\\CandyShop\\CandyShop.csproj",
       "projectName": "CandyShop",
-      "projectPath": "C:\\Users\\andfr\\source\\repos\\CandyShop\\CandyShop\\CandyShop.csproj",
+      "projectPath": "C:\\git\\LearningHub\\CandyShop\\CandyShop\\CandyShop.csproj",
       "packagesPath": "C:\\Users\\andfr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andfr\\source\\repos\\CandyShop\\CandyShop\\obj\\",
+      "outputPath": "C:\\git\\LearningHub\\CandyShop\\CandyShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andfr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8764,8 +8764,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\andfr\\source\\repos\\CandyShop\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\andfr\\source\\repos\\CandyShop\\Data\\Data.csproj"
+            "C:\\git\\LearningHub\\CandyShop\\Data\\Data.csproj": {
+              "projectPath": "C:\\git\\LearningHub\\CandyShop\\Data\\Data.csproj"
             }
           }
         }

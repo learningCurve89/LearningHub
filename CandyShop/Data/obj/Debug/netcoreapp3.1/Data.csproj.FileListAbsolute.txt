@@ -10,3 +10,15 @@ C:\Users\andfr\source\repos\CandyShop\Data\bin\Debug\netcoreapp3.1\Data.pdb
 C:\Users\andfr\source\repos\CandyShop\Data\obj\Debug\netcoreapp3.1\Data.dll
 C:\Users\andfr\source\repos\CandyShop\Data\obj\Debug\netcoreapp3.1\Data.pdb
 C:\Users\andfr\source\repos\CandyShop\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\git\LearningHub\CandyShop\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\git\LearningHub\CandyShop\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\git\LearningHub\CandyShop\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\git\LearningHub\CandyShop\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\git\LearningHub\CandyShop\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\git\LearningHub\CandyShop\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\git\LearningHub\CandyShop\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\git\LearningHub\CandyShop\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\git\LearningHub\CandyShop\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\git\LearningHub\CandyShop\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\git\LearningHub\CandyShop\Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\git\LearningHub\CandyShop\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache

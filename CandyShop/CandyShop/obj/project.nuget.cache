@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lD51CttvEIzyG3xrsTHANUkVcwGC9/Im3tbc8x0NcfJC93g5XLfj+Lxc+967ZQSyIxwc8L+Ne78Yek76Iisd1w==",
+  "dgSpecHash": "OBcInso758TqEh9nq9xTChHDS3yiDSabhpwsSmqss0mTIhpGJzPrk81tm3UXJFUO9I2w04xEb1reK1IVzdHM1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andfr\\source\\repos\\CandyShop\\CandyShop\\CandyShop.csproj",
+  "projectFilePath": "C:\\git\\LearningHub\\CandyShop\\CandyShop\\CandyShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andfr\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\andfr\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
