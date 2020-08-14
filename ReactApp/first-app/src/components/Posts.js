@@ -1,11 +1,19 @@
 import React from 'react';
-import { Row, Nav, Col, Tab, Table } from 'react-bootstrap';
+import FormModal from './FormModal';
+import { Row, Nav, Col, Tab, Table, Button } from 'react-bootstrap';
 class Posts extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             posts: [],
-        }
+            showModal: false,
+        }        
+    }
+    showModalHandler = (event) => {
+        this.setState({ showModal: true });
+    }
+    hideModalHandler = (event) => {
+        this.setState({ showModal: false });
     }
     async componentDidMount() {
         const apiUrl = 'https://localhost:44381/api/Post';
@@ -31,7 +39,16 @@ class Posts extends React.Component {
                         <Col sm={9}>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
-                                    <h2 className="">Posts</h2>
+                                    <h2 className="">Posts
+                                    <Button
+                                            style={{ marginLeft: '640px', display: 'flex' }} variant="outline-success"
+                                            onClick={this.showModalHandler}>
+                                            Add Post
+                                    </Button>
+                                        <FormModal
+                                            showModal={this.state.showModal} hideModalHandler={this.hideModalHandler}>
+                                        </FormModal>
+                                    </h2>
                                     <Table striped bordered hover size="sm" className="col-sm-9">
                                         <thead>
                                             <tr>
@@ -40,15 +57,14 @@ class Posts extends React.Component {
                                             </tr>
                                         </thead>
                                         <tbody>
-                                        {this.state.posts.map(post=>{
-                                            return(
-                                                <tr key={post.postId}>
-                                                    <td>{post.title}</td>
-                                                    <td>{post.content}</td>
-                                                </tr> 
-                                            )
-                                        })
-                                    }
+                                            {this.state.posts.map(post => {
+                                                return (
+                                                    <tr key={post.postId}>
+                                                        <td>{post.title}</td>
+                                                        <td>{post.content}</td>
+                                                    </tr>
+                                                )
+                                            })}
                                         </tbody>
                                     </Table>
                                 </Tab.Pane>
