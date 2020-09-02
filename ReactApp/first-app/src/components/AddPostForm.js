@@ -5,23 +5,17 @@ class AddPostForm extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
     handleSubmit(event) {
-        event.preventDefault();
-        const data = new FormData(event.target);
+        const title= event.target.title.value;
+        const content = event.target.content.value;
 
         fetch('https://localhost:44381/api/Post', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(data),
+            body: JSON.stringify({title: title, content: content}),
         })
-            .then(response => response.json())
-            .then(data => {
-                console.log('Success:', data);
-            })
-            .catch((error) => {
-                console.error('Error:', error);
-            });
+            .then(response => response.json());
         }
         render() {
             return (
