@@ -1,5 +1,6 @@
 import React from 'react';
 import { Modal, Button } from 'react-bootstrap';
+import AddPostForm from './AddPostForm';
 function AddPostModal(props) {
     return (
         <Modal
@@ -14,10 +15,7 @@ function AddPostModal(props) {
           </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <h4>Enter Title</h4>
-                <p>
-                    All the content goes here...
-                </p>
+                <AddPostForm/>
             </Modal.Body>
             <Modal.Footer>
                 <Button onClick={props.onHide}>Close</Button>
