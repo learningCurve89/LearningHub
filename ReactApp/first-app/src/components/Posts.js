@@ -1,27 +1,11 @@
 import React from 'react';
-import AddPostModal from './AddPostModal';
-import { Row, Nav, Col, Tab, Table, Button } from 'react-bootstrap';
-function ShowModal(){
-    const [modalShow, setModalShow] = React.useState(false);
-    return (
-        <>
-          <Button variant="primary" onClick={() => setModalShow(true)}>
-            AddPost
-          </Button>
-    
-          <AddPostModal
-            show={modalShow}
-            onHide={() => setModalShow(false)}
-          />
-        </>
-      );
-}
+import ShowModal from './ShowModal';
+import { Row, Nav, Col, Tab, Table } from 'react-bootstrap';
 class Posts extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            posts: [],
-            showModal: false,
+            posts: []
         }
     }    
     async componentDidMount() {
