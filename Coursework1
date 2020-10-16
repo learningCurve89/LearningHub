@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-16T10:49:36.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="m8MdsUuwla7hS3yjjXuc" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-16T11:12:52.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="XOKUICG-A_qcmBmxXIE9" version="13.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2854" dy="4323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#95CCA9" math="0" shadow="0">
       <root>
@@ -26,9 +26,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3IWa1ClItNDrsiEhTsQV-46" value="Loans &amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OOa8Zx6JFRRjNTfHdb-P-123" vertex="1" connectable="0">
-          <mxGeometry x="0.3506" y="-11" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="S5NBLpRcLbp1XvmpKD1v-24" value="Borrows&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OOa8Zx6JFRRjNTfHdb-P-123">
+          <mxGeometry x="0.2524" y="-15" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OOa8Zx6JFRRjNTfHdb-P-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=diamondThin;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
