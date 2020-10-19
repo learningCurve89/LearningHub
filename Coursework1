@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-19T09:04:49.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.99 Safari/537.36" etag="ysAWa-F-thv-cN7NLqNG" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-19T09:05:06.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.99 Safari/537.36" etag="l18U_0u-Jx8K90rXeY21" version="13.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2412" dy="4178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#95CCA9" math="0" shadow="0">
       <root>
@@ -461,7 +461,7 @@
         <mxCell id="OOa8Zx6JFRRjNTfHdb-P-160" value="+ deleteCustomer(customer Customer) : Customer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OOa8Zx6JFRRjNTfHdb-P-42" vertex="1">
           <mxGeometry y="352" width="450" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="reEjAdABZrWmajp2sIy9-10" value="editCustomer() : Customer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OOa8Zx6JFRRjNTfHdb-P-42">
+        <mxCell id="reEjAdABZrWmajp2sIy9-10" value="+ editCustomer() : Customer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OOa8Zx6JFRRjNTfHdb-P-42">
           <mxGeometry y="378" width="450" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OOa8Zx6JFRRjNTfHdb-P-158" value="+ borrowItem(itemToBorrow : ItemOnLoan) : borrowedItems" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="OOa8Zx6JFRRjNTfHdb-P-42" vertex="1">
