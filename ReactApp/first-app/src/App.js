@@ -1,38 +1,43 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
-import Home from './components/Home';
+import NavbarMain from './components/NavbarMain';
+import {BrowserRouter as Router} from 'react-router-dom' ;
+import Route from 'react-router-dom/Route' ;
 import "bootstrap/dist/css/bootstrap.min.css";
 import './styles/App.css'
+import Home from './components/Home';
+import About from './components/About';
+import Backend from './components/Backend';
+import Frontend from './components/Frontend';
+import Styling from './components/Styling';
+import University from './components/University';
+
 
 class App extends React.Component {
   render() {
     return (
-      <div className="wrapper">
-        <div className="App">
-          <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">Learning Hub</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">About</Nav.Link>
-                <NavDropdown title="Themes" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Backend</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">Frontend</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Styling</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">University</NavDropdown.Item>
-                </NavDropdown>
-              </Nav>
-              <Form inline>
-                <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                <Button variant="outline-success">Search</Button>
-              </Form>
-            </Navbar.Collapse>
-          </Navbar>
-        <Home />
-        </div>
+      <Router>
+      <div>
+        <NavbarMain />
+        <Route path="/home" render={
+          ()=> {return(<Home />) }
+        }/>
+        <Route path="/about" render={
+          ()=> {return(<About />) }
+        }/>
+        <Route path="/backend" render={
+          ()=> {return(<Backend />) }
+        }/>
+        <Route path="/frontend" render={
+          ()=> {return(<Frontend />) }
+        }/>
+        <Route path="/styling" render={
+          ()=> {return(<Styling />) }
+        }/>
       </div>
+      <Route path="/university" render={
+          ()=> {return(<University />) }
+        }/>
+      </Router>
     )
   }
 }

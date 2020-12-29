@@ -38,8 +38,8 @@ class Posts extends React.Component {
                                     <Table striped bordered hover size="sm" className="col-sm-9">
                                         <thead>
                                             <tr>
-                                                <th>Title</th>
-                                                <th>Content</th>
+                                                <th >Title</th>
+                                                <th >Summary</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -47,7 +47,7 @@ class Posts extends React.Component {
                                                 return (
                                                     <tr key={post.postId}>
                                                         <td>{post.title}</td>
-                                                        <td>{post.content}</td>
+                                                        <td>{post.summary}</td>
                                                     </tr>
                                                 )
                                             })}
